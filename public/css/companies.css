@@ -1,0 +1,37 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  color: white;
+}
+
+svg {
+  border: 0px solid grey;
+}
+
+.axis-label {
+  font-size: 20px;
+  text-anchor: middle;
+  fill: white;
+}
+
+.y.axis-label {
+  transform: rotate(-90deg);
+}
+.x.axis text {
+  font-weight: bold;
+  text-anchor: end;
+  transform: rotate(-40deg);
+}
+
+.row {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
